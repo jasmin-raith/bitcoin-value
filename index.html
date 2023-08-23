@@ -8,11 +8,19 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   </head>
   <body onload="init()">
+   
     <h1>Bitcoin-Kurs</h1>
     <div>Der aktuelle Bitcoin Preis beträgt:</div>
-    <div id="course"></div>
+   
+    <div id="course">
+      Bitcoin Tageswert lädt. Bitte warten.
+    </div>
 
     <div>
+      <br>
+      <div id="LoadingGraphMessage">      
+        Bitcoin Graph lädt. Bitte warten.   
+      </div>
       <canvas id="myChart"></canvas>
     </div>
   </body>

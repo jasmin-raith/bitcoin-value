@@ -61,4 +61,6 @@ function renderChart() {
       },
     },
   });
+
+  document.getElementById("LoadingGraphMessage").innerHTML = ``;
 }
