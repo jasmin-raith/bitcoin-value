@@ -33,7 +33,7 @@ async function loadMonthlyCourse() {
 
   for (let date in monthlyCourse) {
     month.push(date);
-    let courseEachMonth = Math.round(monthlyCourse[date]["1a. open (EUR)"]);
+    let courseEachMonth = Math.round(monthlyCourse[date]["1. open"]);
     course.push(courseEachMonth);
   }
 }
